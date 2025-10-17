@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor Lumira Discord</title>
+    
+    <style>
+        body {
+            /* Cor de fundo escura, típica do Discord */
+            background-color: #2c2f33; 
+            color: #ffffff; /* Cor do texto principal (branco) */
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            /* Fundo para o conteúdo, um pouco mais claro que o body */
+            background-color: #36393f; 
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #7289da; /* Cor azul do Discord */
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        /* Destaque para as informações importantes (Membros e Bot) */
+        .highlight {
+            background-color: #57f287; /* Verde vibrante para chamar atenção */
+            color: #23272a; /* Texto escuro no fundo claro */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        .highlight p {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+
+        .highlight strong {
+            font-weight: 900;
+        }
+        
+        .info ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 20px 0 30px 0;
+        }
+
+        .info li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            border-left: 3px solid #7289da; /* Pequena linha de destaque */
+            padding-left: 10px;
+        }
+
+        .chamada {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #99aab5; /* Cinza claro */
+        }
+
+        /* Estilo do Botão */
+        .discord-button {
+            display: inline-block;
+            background-color: #7289da; /* Azul do Discord */
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none; /* Remove o sublinhado */
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 0 #5b6eae; /* Sombra para efeito 3D sutil */
+        }
+
+        /* Efeito ao passar o mouse */
+        .discord-button:hover {
+            background-color: #677bc4; /* Azul ligeiramente mais escuro no hover */
+            box-shadow: 0 2px 0 #5b6eae; /* Sombra menor para simular "pressionar" */
+            transform: translateY(2px); /* Move o botão para baixo */
+        }
+
+        /* Efeito ao clicar (ativo) */
+        .discord-button:active {
+            background-color: #5865f2; /* Azul um pouco mais vivo */
+            transform: translateY(4px);
+            box-shadow: none; /* Remove a sombra */
+        }
+    </style>
+    </head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Seja muito bem vindo ao servidor Lumira</h1>
+        </header>
+
+        <div class="highlight">
+            <p><strong>Comunidade com mais de 500 membros!</strong></p>
+            <p>Temos o nosso <strong>próprio bot de moderação</strong>, garantindo um ambiente seguro e organizado para todos.</p>
+        </div>
+        
+        <section class="info">
+            <ul>
+                <li>• Comunidade ativa</li>
+                <li>• Moderadores sempre ativos</li>
+                <li>• Comunidade de jogos [canais]</li>
+                <li>• Vips e cargos exclusivos</li>
+                <li>• Eventos e sorteios semanais</li>
+                <li>• Entretenimento</li>
+                <li>• Servidor organizado</li>
+                <li>• E muito mais</li>
+            </ul>
+        </section>
+        
+        <p class="chamada">Entre na Lumira, estamos te esperando!</p>
+
+        <a 
+            href="https://discord.gg/KUcdJ4rD" 
+            target="_blank" 
+            class="discord-button"
+        >
+            Entrar no Discord
+        </a>
+    </div>
+</body>
+</html>
